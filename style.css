@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inconsolata', monospace;
+}
+body{
+    background: #0c2c47;
+}
+.inputs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 150px;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 20px;
+    background: #fff;
+}
+.input-profissoes input{
+    outline: none;
+    margin-top: 10px;
+}
+.input-profissoes h1{
+    font-weight: 300;
+}
